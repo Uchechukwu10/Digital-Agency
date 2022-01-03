@@ -64,6 +64,12 @@ margin-bottom: 50px;
   width: 500px;
   border-radius: 20%;
 }
+@media only screen and (max-width: 600px) {
+  .banner-img {
+    width: 300px;
+    border-radius: 20%;
+  }
+}
 .left-banner{
   text-align: center;
 }
@@ -131,6 +137,12 @@ width: 100%;
   margin: 100px 0;
   padding-top: 100px;
 }
+@media only screen and (max-width: 600px) {
+  #testimonials {
+    margin: 100px 0;
+    padding-top: 50px;
+  }
+}
 .testimonials {
   border-left: 4px solid #7b1798;
   margin-top: 50px;
@@ -162,7 +174,7 @@ width: 100%;
   margin-bottom: 30px;
 }
 .social-icons a img {
-  width: 60px;
+  width: 40px;
   transition: 0.5s;
   margin: 0 20px;
 }
